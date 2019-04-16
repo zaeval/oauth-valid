@@ -5,8 +5,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="everytime-parser",
-    version="0.1.6",
+    name="oauth-valid",
+    version="0.1.8",
     author="zaeval",
     author_email="zaeval@among.software",
     description="oauth valid and it serve some utility",
