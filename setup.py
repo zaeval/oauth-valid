@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="oauth-valid",
-    version="0.2.2",
+    version="0.2.3",
     author="zaeval",
     author_email="zaeval@among.software",
     description="oauth valid and it serve some utility",
