@@ -3,9 +3,9 @@ from oauth_valid.facebook import get_token, get_app_access_token, get_token_vali
 FACEBOOK_APP_ID = "{YOUR_APP_ID}"
 FACEBOOK_SECRET_KEY = "{YOUR_SECRET_KEY}"
 REDIRECTION_URI = "{WHERE_TO_REDIRECTION_URL}"
-
+CODE = "{GET CODE FROM URL PARAM}"
 # here is token issued
-res = get_token(FACEBOOK_APP_ID,REDIRECTION_URI,FACEBOOK_SECRET_KEY,"{CODE}")
+res = get_token(FACEBOOK_APP_ID,REDIRECTION_URI,FACEBOOK_SECRET_KEY,CODE)
 access_token = res.get('access_token',None)
 print(res)
 
