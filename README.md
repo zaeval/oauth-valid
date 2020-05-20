@@ -9,7 +9,7 @@ It is using for nonprofit.
 ![](https://img.shields.io/badge/author-zaeval-red.svg)
 
 # Oauth Process
-![](https://raw.githubusercontent.com/among-software/oauth-valid/master/statics/oauth_server_auth.png)
+![](https://raw.githubusercontent.com/among-software/oauth-valid/master/statics/oauth_server_process.png)
 
 # FaceBook
 
