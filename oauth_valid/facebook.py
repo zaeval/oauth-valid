@@ -2,13 +2,13 @@ import json
 
 import requests
 
-VERSION = "v3.2"
-ROOT_URL = "https://graph.facebook.com/%s" % VERSION
+VERSION = "" # ex) /v3.2
+ROOT_URL = "https://graph.facebook.com%s" % VERSION
 APP_ACCESS_URL = "/oauth/access_token"
 USER_ACCESS_URL = "/oauth/access_token"
 TOKEN_VALID_URL = "/debug_token"
 
-def get_token(client_id, redirect_uri, client_secret, code):
+def get_token(client_id, client_secret, redirect_uri, code):
     res = requests.get(ROOT_URL + USER_ACCESS_URL, params={
         'client_id': client_id,
         'redirect_uri': redirect_uri,

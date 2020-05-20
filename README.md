@@ -7,3 +7,18 @@ It is using for nonprofit.
 ![](https://img.shields.io/github/license/mashape/apistatus.svg)
 ![](https://img.shields.io/badge/require-requests%20%7C%20bs4-orange.svg)
 ![](https://img.shields.io/badge/author-zaeval-red.svg)
+
+# Oauth Process
+![](https://raw.githubusercontent.com/among-software/oauth-valid/master/statics/oauth_server_auth.png)
+
+# FaceBook
+
+Update soon
+
+# KaKao
+
+Update soon
+
+# Google
+
+Update soon
